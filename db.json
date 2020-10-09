@@ -1,43 +1,19 @@
 {
-    "weather": {
-    "city":{
-        "name":"London",
-        "coord":{
-            "lon":-0.1258,
-            "lat":51.5085
-        },
-        "country":"GB"
-    },
-    "list":[
+    "todos": [
         {
-            "dt":1568977200,
-            "weather":[
-                {
-                    "main":"Clear",
-                    "description":"sky is clear"
-                }
-            ]
+            "id": 1,
+            "text": "Kaffee kaufen",
+            "isDone": false
         },
         {
-            "dt":1569977200,
-            "weather":[
-                {
-                    "main":"Storm",
-                    "description":"It is very windy outside"
-                }
-            ]
+            "id": 2,
+            "text": "Swift lernen",
+            "isDone": false
         },
         {
-            "dt":1578977200,
-            "weather":[
-                {
-                    "id":800,
-                    "main":"Clouds",
-                    "description":"sky is cloudy"
-                }
-            ]
+            "id": 3,
+            "text": "Die Weltherrschaft an uns zu reißen",
+            "isDone": false
         }
     ]
-}
-
 }
